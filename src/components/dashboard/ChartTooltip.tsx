@@ -1,8 +1,14 @@
 import React from 'react';
 
-type Props = {};
+type TChartTooltipProps = {
+	kpi: string;
+	colors: {
+		stroke: string;
+		fill: string;
+	};
+};
 
-const ChartTooltip = (props: Props) => {
+const ChartTooltip = (props: TChartTooltipProps) => {
 	return <div>ChartTooltip</div>;
 };
 
