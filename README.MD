@@ -45,3 +45,5 @@ To learn more about **Refine**, please check out the [Documentation](https://ref
 ## License
 
 MIT
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c98a24ec-9c84-45b2-9ba4-762f1b503d22/deploy-status)](https://app.netlify.com/sites/refine-daisyui-dashboard/deploys)
