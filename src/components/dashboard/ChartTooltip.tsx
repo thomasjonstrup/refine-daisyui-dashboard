@@ -63,6 +63,8 @@ const ChartTooltip = ({
 			</div>
 		);
 	}
+
+	return null;
 };
 
 export {ChartTooltip};
