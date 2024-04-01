@@ -12,7 +12,7 @@ const TabView = ({tabs}: TTabViewProps) => {
 
 	return (
 		<div className="mx-auto rounded-lg border bg-slate-50 py-4 drop-shadow-md">
-			<div className="tabs">
+			<div className="tabs tabs-bordered">
 				{tabs?.map((tab: TTab, index: number) => {
 					const isActive = index === activeTab;
 					return (

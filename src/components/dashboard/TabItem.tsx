@@ -11,7 +11,7 @@ const TabItem = ({label, isActive, clickHandler}: TTabItemProps) => {
 		<a
 			href="#"
 			className={twMerge(
-				'text-l tab-bordered tab font-bold',
+				'text-l tab font-bold',
 				isActive ? 'tab-active' : ''
 			)}
 			onClick={(event) => {

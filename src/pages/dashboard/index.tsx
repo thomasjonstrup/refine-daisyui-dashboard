@@ -80,7 +80,7 @@ const Dashboard = () => {
 			),
 		},
 		{
-			id: 2,
+			id: 3,
 			label: 'New Customers',
 			content: (
 				<ResponsiveAreaChart
